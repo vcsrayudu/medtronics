@@ -1,0 +1,49 @@
+QUESTION:
+Derive test scenarios to login a banking site ..login, validated by uid, pwd, or OTP..common is capcha
+
+UI TESTS
+1. Display login page as expected 
+2. Textboxes should enabled minimum and maximum lenth.
+3. Reset button should clear all the fields empty.
+4. Login button should enabled after entered the all fields.
+5. Error messages should display with out any user deatils.
+6. Virtual Key board should enabled.
+
+POSSITIVE functional Tests
+
+1. Login should allow with valid uid, pwd and Capcha
+ 2. Login should allow with valid uid, pwd and refreshed valid Capcha
+ 3. Login should allow with valid lenghthy uid, pwd and valid Capcha
+4. Login should allow  with valid uid, Lengthy pwd and valid Capcha
+5. Refresh the browser after login should not alow.
+6. Enter valid details and wait for 5 minutes to Login. It should not alow
+7. Copy paste should not allow for the uid, pwd.
+
+TWO WAY Authentication
+1. Login should alow with valid UID,PWD,OTP and capcha,
+2. OTP should be sent to mail and Phone.
+3. Login should not allow with expired OTP.
+4. Login should not generate OTP with invalid UID/PWD
+5. Login should not allow with worng OTP.
+6. Login should allow with regenerated OTP.
+
+SECURITY Tests
+1. Check wether the URL is with https or not before login and after login also
+2. Password should not display as plain text.
+3. Notification has to send if multiple browsers try to login
+4. After login copy paste the url in to new brower then it should not allow.
+5. Maximum session time out should be working.
+6. Check whether the number of attempts left is displaying after wrong attempts of 3 times.
+
+NEGATIVE Functional Test
+1. try Login with valid uid, pwd and invalid capcha should not allow.
+2. try to Login with Invalid valid uid, valid pwd, Capcha should not allow.
+3. try to Login with invalid pwd  and valid uid, capcha should not allow.
+4. Check whether Case sensitive UID  and PWD
+5. Try to check with all empty values.
+6. After logout check the browser should not allow the back button to same session.
+
+PERFORMANCE Test:
+1. Verify the time taken to log in with a valid UID and PWD.
+2. Verify the logout time taken
+3. Verify the clrear button time taken.
