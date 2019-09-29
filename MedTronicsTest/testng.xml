@@ -6,7 +6,7 @@
   <parameter name="url" value="https://www.amazon.com/" />
   <parameter name="user" value="9663003852" />
   <parameter name="password" value="iloveindia" />
-  <test name="Login Test">
+  <test name="Acceptance Test">
     <groups>
       <run>
         <include name="acceptance" />
@@ -18,7 +18,7 @@
       <class name="com.medtronics.tests.scenarios.OrderScenario"/>
     </classes>
   </test>
-  <!--test  name="Regression">
+  <!--test  name="Regression Test">
     <groups>
       <run>
         <include name="regression" />

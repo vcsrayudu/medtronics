@@ -1,0 +1,54 @@
+{
+
+
+    "commodityclause":{
+    
+      "commodity":"//*[@id='CommodityTerm']",
+
+      "exchangeRate":"//*[@id='exchangeRate']",
+      "market":"//*[@id='market']",
+      "internalComment":"//*[@id='internalComment']",
+      "calculationDescription":"//*[@id='calculationDescription']",
+      "currency":"//*[@id='currency']",
+      "uom":"//*[@id='uom']",
+      "tolerance":"//*[@id='tolerance']",
+      "frequencyDropdown":"//button[@data-toggle='dropdown']",
+       "save":"//button[text()='Save']",
+      "create":"//button[text()='Create']",
+      "update":"//button[text()='Update']",
+      "activeRadio":"//input[@value='both']",
+      "cancel":"//button[text()='Cancel']",
+      "commodityTermSearch":"//input[@name='commodityTermSearch']",
+      "search":"//button[text()='Search']",
+      "listAll":"//button[text()='List All']",
+      "listItem":"//div[@class='ui-grid-cell-contents ng-binding ng-scope' and text()='']",
+      "actionsDropdown":"//button[@data-toggle='dropdown' and contains(text(),'Actions')]",
+      "actions":{
+      "addPrice":"//a[text()='Add Price']",
+      "viewPrice":"//a[text()='View Price']",
+      "deactivate":"//a[text()='Deactivate']",
+      "activate":"//a[text()='Activate']",
+      "delete":"//a[text()='Delete']",
+       "edit":"//a[text()='Edit']"
+         },
+      "priceValue":"//input[@name='value']",
+      
+     
+      
+      "validFrom":"//input[@name='validFrom']",
+      "validTo":"//input[@name='validTo']",
+       "close":"//button[text()='Close']"
+     
+      
+      
+
+
+   }
+
+ 
+
+
+
+
+
+}

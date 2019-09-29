@@ -1,0 +1,27 @@
+{
+
+  
+
+  
+
+    "landingpage":{
+    
+      "testcentral":"//a[contains(text(),'Test Central')]",
+      "commodityem":
+      {
+      "cem":"//a[@awname='Commodity Escalation Manager:showDetailsAction']",
+      "title":"//*[@id='_jwiieb']/table[1]/tbody/tr/td",
+      "clause_config":"//a[contains(@title,'Escalation Clause Configuration')]"
+      }
+    
+
+
+  
+
+  }
+
+
+
+
+
+}

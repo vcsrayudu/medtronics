@@ -87,7 +87,7 @@ public class HeaderPage {
 
     public HeaderPage(WebDriver driver){
         this.driver=driver;
-        Reporter.log("HeaderPage initialization");
+        Reporter.log("HeaderPage initialization\n");
         PageFactory.initElements(driver, this);
     }
 

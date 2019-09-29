@@ -28,10 +28,14 @@
   </component>
   <component name="ProjectId" id="1RQNYF0Q9yr6ZOb6a5ygvhkfO4n" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="medtronicstest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testng.xml" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32942432" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
@@ -54,8 +58,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/cvidudal/IdeaProjects/MedTronicsTest/testng.xml">
+  <component name="RunManager" selected="TestNG.TestNG">
     <configuration name="All in MedTronicsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MedTronicsTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in MedTronicsTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MedTronicsTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -81,6 +93,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNG" type="TestNG">
+      <module name="MedTronicsTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG" type="TestNG" temporary="true">
+      <module name="MedTronicsTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MedTronicsTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,7 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/cvidudal/IdeaProjects/MedTronicsTest/testng.xml" />
+        <item itemvalue="TestNG.TestNG" />
+        <item itemvalue="JUnit.All in MedTronicsTest (2)" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="JUnit.All in MedTronicsTest (1)" />
         <item itemvalue="JUnit.All in MedTronicsTest" />

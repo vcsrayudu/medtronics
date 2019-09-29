@@ -30,7 +30,7 @@ public class SetWebDriver {
 		{
 			System.setProperty("webdriver.chrome.driver", "win\\browserexe\\chromedriver.exe");
 			webdriver = new  ChromeDriver();
-			Reporter.log("Creating Chrome driver");
+			Reporter.log("Creating Chrome driver\n");
 		}
 		else if(s.equals("safari"))
 		{

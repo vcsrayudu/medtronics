@@ -13,29 +13,31 @@ public class Util {
     {
 
         headerPage.clickOnLogout();
+        Reporter.log("LogOut Successfully\n");
 
     }
     public static void navigateToLogin(WebDriver driver, String url, HeaderPage headerPage)
     {
         driver.get(url);
-        Reporter.log("URL is opend");
+        Reporter.log("URL is opend\n");
         headerPage.clickAccountList();
         headerPage.clickSignin();
-        Reporter.log("Login page opend");
+        Reporter.log("Login page opend\n");
     }
     public static void search(HeaderPage headerPage, String itemName)
     {
         headerPage.setSearchbox(itemName);
         headerPage.clickSearchButton();
+        Reporter.log("Search for the item name : "+itemName +"\n");
     }
     public static void login(LoginPage loginPage, String user, String password)
     {
-        Reporter.log("User is entered");
+        Reporter.log("User is entered\n");
         loginPage.setLoginName(user);
         loginPage.clickOnContinue();
-        Reporter.log("Click on Continue Button");
+        Reporter.log("Click on Continue Button\n");
         loginPage.setPassword(password);
         loginPage.clickOnSubmit();
-        Reporter.log("Login successfully");
+        Reporter.log("Login successfully\n");
     }
 }
