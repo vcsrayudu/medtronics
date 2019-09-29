@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="iloveindia"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="user" value="9663003852"/>
+  <parameter name="url" value="https://www.amazon.com/"/>
+  <test name="Acceptance Test(failed)">
+    <groups>
+      <run>
+        <include name="acceptance"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.medtronics.tests.scenarios.OrderScenario">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="placeOrder"/>
+        </methods>
+      </class> <!-- com.medtronics.tests.scenarios.OrderScenario -->
+      <class name="com.medtronics.tests.scenarios.LoginScenario">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="setUp"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.medtronics.tests.scenarios.LoginScenario -->
+    </classes>
+  </test> <!-- Acceptance Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

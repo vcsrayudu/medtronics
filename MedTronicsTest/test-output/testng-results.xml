@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Creating Chrome driver
+]]>
+    </line>
+    <line>
+      <![CDATA[HeaderPage initialization
+]]>
+    </line>
+    <line>
+      <![CDATA[Object are created
+]]>
+    </line>
+    <line>
+      <![CDATA[URL is opend
+]]>
+    </line>
+    <line>
+      <![CDATA[Login page opend
+]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to login
+]]>
+    </line>
+    <line>
+      <![CDATA[Checking login with valid user and pwd
+]]>
+    </line>
+    <line>
+      <![CDATA[User is entered
+]]>
+    </line>
+    <line>
+      <![CDATA[Click on Continue Button
+]]>
+    </line>
+    <line>
+      <![CDATA[Login successfully
+]]>
+    </line>
+    <line>
+      <![CDATA[Test passed with valid user and password
+]]>
+    </line>
+    <line>
+      <![CDATA[LogOut Successfully
+]]>
+    </line>
+    <line>
+      <![CDATA[Creating Chrome driver
+]]>
+    </line>
+    <line>
+      <![CDATA[HeaderPage initialization
+]]>
+    </line>
+    <line>
+      <![CDATA[URL is opend
+]]>
+    </line>
+    <line>
+      <![CDATA[Login page opend
+]]>
+    </line>
+    <line>
+      <![CDATA[User is entered
+]]>
+    </line>
+    <line>
+      <![CDATA[Click on Continue Button
+]]>
+    </line>
+    <line>
+      <![CDATA[Login successfully
+]]>
+    </line>
+    <line>
+      <![CDATA[Search for the item name : redmi note 7
+]]>
+    </line>
+    <line>
+      <![CDATA[Search for the item name : 
+]]>
+    </line>
+    <line>
+      <![CDATA[Search for the item name : motorola g7
+]]>
+    </line>
+    <line>
+      <![CDATA[Search for the item name : 
+]]>
+    </line>
+    <line>
+      <![CDATA[Search for the item name : samsung galaxy s9
+]]>
+    </line>
+    <line>
+      <![CDATA[Search for the item name : 
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-09-29T07:47:03Z" name="Suite" finished-at="2019-09-29T07:47:48Z" duration-ms="45361">
+    <groups>
+      <group name="acceptance">
+        <method signature="LoginScenario.LoginWithValidUsers(java.lang.String, java.lang.String)[pri:0, instance:com.medtronics.tests.scenarios.LoginScenario@49438269]" name="LoginWithValidUsers" class="com.medtronics.tests.scenarios.LoginScenario"/>
+        <method signature="OrderScenario.placeOrder(java.lang.String, int)[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" name="placeOrder" class="com.medtronics.tests.scenarios.OrderScenario"/>
+      </group> <!-- acceptance -->
+      <group name="regression">
+        <method signature="LoginScenario.LoginWithValidUsers(java.lang.String, java.lang.String)[pri:0, instance:com.medtronics.tests.scenarios.LoginScenario@49438269]" name="LoginWithValidUsers" class="com.medtronics.tests.scenarios.LoginScenario"/>
+        <method signature="OrderScenario.placeOrder(java.lang.String, int)[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" name="placeOrder" class="com.medtronics.tests.scenarios.OrderScenario"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2019-09-29T07:47:03Z" name="Acceptance Test" finished-at="2019-09-29T07:47:48Z" duration-ms="45361">
+      <class name="com.medtronics.tests.scenarios.LoginScenario">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:com.medtronics.tests.scenarios.LoginScenario@49438269]" started-at="2019-09-29T13:17:03Z" name="beforeSuite" finished-at="2019-09-29T13:17:06Z" duration-ms="2955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Creating Chrome driver
+]]>
+            </line>
+            <line>
+              <![CDATA[HeaderPage initialization
+]]>
+            </line>
+            <line>
+              <![CDATA[Object are created
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.medtronics.tests.scenarios.LoginScenario@49438269]" started-at="2019-09-29T13:17:06Z" name="setUp" finished-at="2019-09-29T13:17:10Z" duration-ms="4370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[URL is opend
+]]>
+            </line>
+            <line>
+              <![CDATA[Login page opend
+]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to login
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginWithValidUsers(java.lang.String, java.lang.String)[pri:0, instance:com.medtronics.tests.scenarios.LoginScenario@49438269]" started-at="2019-09-29T13:17:10Z" name="LoginWithValidUsers" data-provider="loginDataProvider" finished-at="2019-09-29T13:17:15Z" duration-ms="4338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9663003852]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iloveindia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Checking login with valid user and pwd
+]]>
+            </line>
+            <line>
+              <![CDATA[User is entered
+]]>
+            </line>
+            <line>
+              <![CDATA[Click on Continue Button
+]]>
+            </line>
+            <line>
+              <![CDATA[Login successfully
+]]>
+            </line>
+            <line>
+              <![CDATA[Test passed with valid user and password
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medtronics.tests.scenarios.LoginScenario@49438269]" started-at="2019-09-29T13:17:15Z" name="tearDown" finished-at="2019-09-29T13:17:16Z" duration-ms="1449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LogOut Successfully
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.medtronics.tests.scenarios.LoginScenario@49438269]" started-at="2019-09-29T13:17:16Z" name="closeDriver" finished-at="2019-09-29T13:17:18Z" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.medtronics.tests.scenarios.LoginScenario -->
+      <class name="com.medtronics.tests.scenarios.OrderScenario">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:18Z" name="beforeClass" finished-at="2019-09-29T13:17:31Z" duration-ms="12722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9663003852]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iloveindia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Creating Chrome driver
+]]>
+            </line>
+            <line>
+              <![CDATA[HeaderPage initialization
+]]>
+            </line>
+            <line>
+              <![CDATA[URL is opend
+]]>
+            </line>
+            <line>
+              <![CDATA[Login page opend
+]]>
+            </line>
+            <line>
+              <![CDATA[User is entered
+]]>
+            </line>
+            <line>
+              <![CDATA[Click on Continue Button
+]]>
+            </line>
+            <line>
+              <![CDATA[Login successfully
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:31Z" name="setUp" finished-at="2019-09-29T13:17:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder(java.lang.String, int)[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:31Z" name="placeOrder" data-provider="orderDataProvider" finished-at="2019-09-29T13:17:35Z" duration-ms="4044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi note 7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search for the item name : redmi note 7
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:35Z" name="teardown" finished-at="2019-09-29T13:17:37Z" duration-ms="1977" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search for the item name : 
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:37Z" name="setUp" finished-at="2019-09-29T13:17:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder(java.lang.String, int)[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:37Z" name="placeOrder" data-provider="orderDataProvider" finished-at="2019-09-29T13:17:40Z" duration-ms="2685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[motorola g7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search for the item name : motorola g7
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:40Z" name="teardown" finished-at="2019-09-29T13:17:42Z" duration-ms="2227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search for the item name : 
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:42Z" name="setUp" finished-at="2019-09-29T13:17:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder(java.lang.String, int)[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:42Z" name="placeOrder" data-provider="orderDataProvider" finished-at="2019-09-29T13:17:45Z" duration-ms="2915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung galaxy s9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search for the item name : samsung galaxy s9
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:45Z" name="teardown" finished-at="2019-09-29T13:17:46Z" duration-ms="1239" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search for the item name : 
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.medtronics.tests.scenarios.OrderScenario@3b0090a4]" started-at="2019-09-29T13:17:46Z" name="afterClass" finished-at="2019-09-29T13:17:48Z" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.medtronics.tests.scenarios.OrderScenario -->
+    </test> <!-- Acceptance Test -->
+  </suite> <!-- Suite -->
+</testng-results>
