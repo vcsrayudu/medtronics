@@ -12,7 +12,7 @@ exports.config = {
 			    browserName: app_var.browser,
 			    recreateChromeDriverSessions: true
 			  },
-	     seleniumAddress: 'http://10.173.72.35:4444/wd/hub', 	 
+	     seleniumAddress: 'http://localhost:4444/wd/hub', 	 
 		 ignoreUncaughtExceptions: true,
 		 framework: 'custom',
 			  // path relative to the current config file
@@ -26,13 +26,16 @@ exports.config = {
 	
 		
 		cucumberOpts: {
+			format: ['json:test-results/results.json'],
 			require: [
-					'step_definitions/CommodityEscalationClauseSteps.js',
-					'support/support.js'
+					'step_definitions/LoginScenarioSteps.js',
+					
+					
+					
 					],
 	    	 tags: false,
-	    	 format: 'pretty',
-	    	 
+	    	 monochrome: true,
+	    	 plugin: "json",
 	    	 profile: false,
 	    	'no-source': true
 	    	

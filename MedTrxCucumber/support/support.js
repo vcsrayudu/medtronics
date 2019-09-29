@@ -56,22 +56,5 @@ defineSupportCode(function({Before,After,registerListener}) {
 	    CucumberHtmlReport.generate(options);
 	};
     
-    jsonFormatter = new JsonFormatter;
-    jsonFormatter.log = function (string) {
-        if (!fs.existsSync(outputDir)) {
-            fs.mkdirSync(outputDir);
-        }
-        
-        var targetJson = outputDir + 'cucumber.json';
-        fs.writeFile(targetJson, string, function (err) {
-            if (err) {
-                console.log('Failed to save cucumber test results to json file.');
-                console.log(err);
-            } else {
-                createHtmlReport(targetJson);
-            }
-        });
-    };
-	
-    registerListener(jsonFormatter);
+  
 });

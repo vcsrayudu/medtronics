@@ -1,0 +1,349 @@
+[
+  {
+    "description": "    As a Member of amazon can order a goods",
+    "keyword": "Feature",
+    "name": "Amazon Website testing",
+    "line": 1,
+    "id": "amazon-website-testing",
+    "tags": [],
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "id": "amazon-website-testing;login-functionality-with-valid-user-and-password",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login functionality with valid user and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Open Amazon site",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35749000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Login",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter user and passowrd \"9663003852\", \"iloveindia\" and 0",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 110000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"ap_email\"])\n    at elementArrayFinder.getWebElements.then (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at HeaderPage.login (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\page-object-repo\\pages\\HeaderPage.js:14:66)\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:32:15)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should able to check my order count \"9663003852\", \"iloveindia\" and 0",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "TypeError: callback is not a function\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:60:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "amazon-website-testing;login-functionality-with-valid-user-and-password",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login functionality with valid user and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Open Amazon site",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Login",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:26"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 62000000,
+              "error_message": "Error: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"\n    at runWaitForAngularScript.then (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:463:23)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at HeaderPage.nagigateTologin (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\page-object-repo\\pages\\HeaderPage.js:32:70)\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:27:15)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter user and passowrd \"9663003852\", \"subbu\" and 0",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:30"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should able to check my order count \"9663003852\", \"subbu\" and 0",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "TypeError: callback is not a function\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:60:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "amazon-website-testing;login-functionality-with-in-valid-password",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Login functionality with in valid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "Open Amazon site",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click on Login",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:26"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 63000000,
+              "error_message": "Error: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"\n    at runWaitForAngularScript.then (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:463:23)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at HeaderPage.nagigateTologin (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\page-object-repo\\pages\\HeaderPage.js:32:70)\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:27:15)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter user and passowrd \"9663003852\" and \"subbu\"",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:35"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should not able to login",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:51"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "TypeError: callback is not a function\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:60:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "amazon-website-testing;login-functionality-with-in-valid-password",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login functionality with in valid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "Open Amazon site",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click on Login",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:26"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 51000000,
+              "error_message": "Error: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"\n    at runWaitForAngularScript.then (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:463:23)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\cvidudal\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at HeaderPage.nagigateTologin (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\page-object-repo\\pages\\HeaderPage.js:32:70)\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:27:15)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter user and passowrd \"rayudu\" and \"password\"",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:35"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should not able to login",
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:51"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\LoginScenarioSteps.js:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "TypeError: callback is not a function\n    at World.<anonymous> (C:\\Users\\cvidudal\\IdeaProjects\\MedTrxCucumber\\step_definitions\\LoginScenarioSteps.js:60:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

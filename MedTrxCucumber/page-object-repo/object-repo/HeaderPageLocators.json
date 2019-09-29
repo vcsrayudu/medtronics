@@ -1,0 +1,26 @@
+{
+  "headerPage": {
+  	"header":{
+    
+      "searchBox":"//*[@id='twotabsearchtextbox']",
+      "searchButton":"//input[@value='Go']",
+       "searchDropdown":"//*[@id='searchDropdownBox']",
+       "logo":"//*[@id='nav-logo']",
+       "cartCount":"//*[@id='nav-cart-count']",
+  	   "accountList":"nav-link-accountList",
+      "orders":"//*[@id='nav-orders']",
+      "signOut":"//*[@id='nav-item-signout']",
+      "signin":"//div[@id='nav-flyout-ya-signin']/a"
+   
+    },
+    "login":{
+     "forgetPassword":"//*[@id='auth-fpp-link-bottom']",
+      "continueButton":"//*[@id='continue']",
+       "loginName":"ap_email",
+       "password":"ap_password",
+       "signInSubmit":"signInSubmit",
+       "createAccountSubmit":"//*[@id='createAccountSubmit']",
+  	   "errorMessage":"//div[@id='auth-error-message-box']/div/h4"
+  	 }
+  }
+ }

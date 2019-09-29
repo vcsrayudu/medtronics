@@ -1,0 +1,13 @@
+{
+ "homepage":{
+    
+   	"forgetPassword":"//*[@id='auth-fpp-link-bottom']",
+      "continueButton":"//*[@id='continue']",
+       "loginName":"//*[@id='loginName']",
+       "password":"//*[@id='ap_password']",
+       "createAccountSubmit":"//*[@id='createAccountSubmit']",
+  	   "errorMessage":"//div[@id='auth-error-message-box']/div/h4",
+  	   "signInSubmit":"signInSubmit"
+    }
+
+}
