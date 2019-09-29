@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://www.amazon.com/" />
+  <parameter name="user" value="9663003852" />
+  <parameter name="password" value="iloveindia" />
+  <test name="Login Test">
+    <groups>
+      <run>
+        <include name="acceptance" />
+      </run>
+    </groups>
+
+    <classes>
+      <!--class name="com.medtronics.tests.scenarios.LoginScenario"/-->
+      <class name="com.medtronics.tests.scenarios.OrderScenario"/>
+    </classes>
+  </test>
+  <!--test  name="Regression">
+    <groups>
+      <run>
+        <include name="regression" />
+      </run>
+    </groups>
+    <classes>
+       <class name="com.medtronics.tests.scenarios.LoginScenario"/>
+       <class name="com.medtronics.tests.scenarios.OrderScenario"/>
+    </classes>
+  </test-->
+</suite>
